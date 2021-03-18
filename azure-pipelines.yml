@@ -27,7 +27,7 @@ steps:
     verbose: false
 
 - task: Npm@1
-  displayName: 'sudo npm install --unsafe-perm node-sass'
+  displayName: 'Run npm install node-sass'
   inputs:
     verbose: false
     
