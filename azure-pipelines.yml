@@ -27,7 +27,7 @@ steps:
     verbose: false
 
 - task: Npm@1
-  displayName: 'Run npm install node-sass'
+  displayName: 'Run npm i -g node-sass'
   inputs:
     verbose: false
     
